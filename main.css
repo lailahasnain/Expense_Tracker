@@ -1,0 +1,101 @@
+.navbar ul{
+    text-align: right;
+}
+.hero{
+    background-image: url("img/wallpaper-3342.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: aliceblue;
+}
+.hero h1{
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Saira Stencil One', cursive;
+}
+.hero p{
+    text-align: center;
+    font-size: 25px;
+}
+button{
+    align-content: center;
+    margin-left: 650px;
+    height: 50px;
+    width: 150px;
+    border-radius: 2px;
+    margin-top: 50px;
+    text-decoration:none;
+    background-color: rgb(219, 141, 16);
+}
+.about{
+    text-align: center;
+    padding-top: 30px;
+
+}
+.about h2{
+    font-family: 'Oswald', sans-serif;
+    margin-left: 200px;
+}
+hr{
+    width: 200px;
+    height: 25px;
+    padding-left: 400px;
+}
+.about p{
+    text-align: center;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+/* .image1{
+    height: 100px;
+    width: 200px;
+    margin-left: -900px;
+    margin-top: 100px;
+}
+.image2{
+    height: 100px;
+    width: 200px;
+    margin-left: 1200px;
+    margin-top: -550px;
+    
+} */
+.why-us{
+    padding-left: 50px;
+    padding-top: 20px;
+    background-color: rgb(6, 80, 6);
+}
+.why-us h2{
+    text-align: center;
+}
+.text2{
+    padding-left: 700px;
+    margin-top: -150px;
+}
+.text4{
+    padding-left: 700px;
+    margin-top: -120px;
+}
+.text3{
+    margin-top: 100px;
+}
+.team{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(87, 82, 76);
+}
+.team1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    margin-left: 200px;
+    display: inline;
+}
+.team2 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* padding: 10px; */
+    margin-left: 200px;
+}
