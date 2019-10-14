@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Expenses Tracker</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600'>
+    <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="layout">
+  
+        
+<div class="hero">
+  <h2><b>TRACK YOUR MONEY TODAY</b></h2>
+  <h4><i>Try now!!!</i></h4>
+</div>
+
+   
+
+  <!-- income side -->
+<div class="container-full">
+  <div class="row">
+    <div class="col-md-6">
+  <div class="forms">
+    <h2>EARNINGS</h2>
+   <form class="forms">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-4">
+           <span>DESCRIPTION:</span>
+           <input type="text" name="item-name" placeholder="Income Source">
+         </div>
+         <div class="col-md-4">
+           <span>DATE:</span>
+           <input type="date" name="date">
+         </div>
+         <div class="col-md-4">
+           <span>AMOUNT</span>
+           <input type="text" name="amount" placeholder="Amount Earned">
+         </div>
+       </div>
+     </div>
+   </form>
+   <button id="button">SAVE</button>
+</div>
+
+
+  <table class="table table-striped">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col" id="date">Date</th>
+      <th scope="col"  id="amount">Amount</th>
+    </tr>
+    <tr id="if-empty">
+      <td ><span>Your account</span></td></br>
+    </tr>
+  </table>
+</div>
+
+  <!-- Expenses side -->
+<div class="col-md-6">
+  <div class="form1">
+    <h2>EXPENSES</h2>
+      <form class="forms1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <span>DESCRIPTION:</span>
+              <input type="text" name="item-name1" placeholder="Enter your Expenses">
+            </div>
+            <div class="col-md-4">
+              <span>DATE:</span>
+              <input type="date" name="date1">
+            </div>
+            <div class="col-md-4">
+              <span>AMOUNT</span>
+              <input type="text" name="amount1" placeholder="Amount used">
+            </div>
+          </div>
+        </div>
+      </form>
+      <button id="button1">SAVE</button>
+   <!-- </div> -->
+   
+   
+     <table class="table1 table-striped">
+       <tr>
+         <th scope="col">Name</th>
+         <th scope="col" id="date">Date</th>
+         <th scope="col"  id="amount">Amount</th>
+       </tr>
+       <tr id="if-empty1">
+         <td ><span>Your account</span></td></br>
+       </tr>
+     </table>
+  </div>
+  </div>
+  </div>
+  
+
+    <script src="main.js"></script>
+</body>
+</html>
