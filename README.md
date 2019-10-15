@@ -16,5 +16,6 @@ Record is kept for the future analysis of your budget
 3) Open the index.html
 4) Click on the form tab and go
 
-#TECHNOLOGY USED
+#TECHNOLOGY USED:
+
 HTML,CSS,JAVASCRIPT,JQUERY, BOOTSTRAP
