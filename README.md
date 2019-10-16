@@ -10,11 +10,7 @@ This includes
 3) The amount the transcation that was used
 Record is kept for the future analysis of your budget
 
-HOW TO USE
-1) Download a zip file
-2) Extract a the files
-3) Open the index.html
-4) Click on the form tab and go
+
 
 TECHNOLOGY USED:
 
